@@ -1,4 +1,4 @@
-#decimal to binary can accept floating point
+#base 10 to binary converter, can accept decimal points
 def decToBin(n):
     integer = int(n)
     decimal = n - integer
