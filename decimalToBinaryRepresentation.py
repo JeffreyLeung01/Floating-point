@@ -23,6 +23,8 @@ if negative:
 else:
     print(f"binary form = {number}")
 
+if number.find('.') == -1: #the entered number is an integer, no dot
+    number = number + '.'
 exp = number.find('.') - 1
 exp = 2**(expBits - 1) -1 + exp
 exp = bin(exp)[2:]

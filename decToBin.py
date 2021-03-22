@@ -9,6 +9,7 @@ def decToBin(n):
         output = ''
     
     if n == int(n): #dealing with integer input
+        n = int(n)
         output += bin(n)[2:]
         return output
 
@@ -25,3 +26,4 @@ def decToBin(n):
                 output += '0'
             decimal = decimal * 2
     return(output + '1')
+
