@@ -1,9 +1,8 @@
 # Floating-point-numbers
-Two python programs, one is to convert decimal numbers into binary representation of floating point, for example convert 7.375 to 401d80000 (11 bit exponent and 24 bit significant)
-The other is to convert binary representation back to decimal, for example convert c05d00000 to -116 (11 bit exponent and 24 bit significant)
+Two python programs, one is to convert decimal numbers into binary representation of floating point, for example convert 7.375 to 401d80000 (11 bit exponent and 24 bit significant). The other program is to convert binary representation back to decimal, for example convert c05d00000 to -116 (11 bit exponent and 24 bit significant)
 
 ## How to use
-1. You must have Python 3 installed on your machine to run
+1. You must have Python 3 installed on your machine to use
 2. Download all the files
 3. Put the files in a same folder
 4. Right click "binaryRepresentationToDecimal.py" or "decimalToBinaryRepresentation.py"
