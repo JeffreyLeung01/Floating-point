@@ -14,18 +14,19 @@ number = int(number,16)
 number = bin(number)[2:] #string of the number in binary
 
 if number[0] == '1':
-    negative = True
+    output = "-"
 else:
-    negative = False
+    output = ""
 
 exp = number[1:expBits+1]
-exp = int(exp,2)
-exp = exp - (2**(expBits-1) - 1)
 print("exponent =",exp)
+exp = int(exp,2)
+exp = int(exp) - (2**(expBits-1) - 1)
+#print("exponent =",exp)
 
 sig = number[expBits+1:]
 sig = "1." + str(sig)
+sig = float(sig)
 print("significand =",sig)
 
-value = 
-print(value)
+#still need to calculate the actual value after getting exp and sig
