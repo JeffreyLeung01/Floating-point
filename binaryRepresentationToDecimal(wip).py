@@ -29,3 +29,4 @@ sig = output + sig
 sig = float(sig)
 print("significand =",sig)
 
+#Still need to find the actual value after finding significant and exponent
