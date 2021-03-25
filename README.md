@@ -13,7 +13,7 @@ Two python programs, one is to convert decimal numbers into binary representatio
 9. Enter the hexadecimal number or decimal number you want to convert
 
 ## License 
-You are free to download, use, edit, modify and distribute this code, but only if you include this README file
+You are free to download, use, modify and distribute this code, but only if you include this README file. You are NOT allowed to use this code to perform illegal or malicious activities.
 
 ## Disclaimer
 * This converter is for reference only, it might not be free of bugs
