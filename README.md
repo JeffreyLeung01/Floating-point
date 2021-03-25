@@ -20,5 +20,4 @@ You are free to download, use, edit, modify and distribute this code, but only i
 * The program uses a lot of string methods, so it is quite slow
 * **Do not use this program to cheat in exams**
 
-Made by Leung Lok Wing Jeffrey
-Contact: jeffreyleung001@gmail.com
+Made by Leung Lok Wing Jeffrey. Contact: jeffreyleung001@gmail.com
