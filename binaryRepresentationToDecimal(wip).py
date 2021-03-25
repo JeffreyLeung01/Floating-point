@@ -19,14 +19,13 @@ else:
     output = ""
 
 exp = number[1:expBits+1]
-print("exponent =",exp)
 exp = int(exp,2)
 exp = int(exp) - (2**(expBits-1) - 1)
-#print("exponent =",exp)
+print("exponent =",exp)
 
 sig = number[expBits+1:]
 sig = "1." + str(sig)
+sig = output + sig
 sig = float(sig)
 print("significand =",sig)
 
-#still need to calculate the actual value after getting exp and sig
